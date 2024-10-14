@@ -21,7 +21,7 @@
                 quick-tap-ms = <175>;                // repeat on tap-into-hold
                 bindings = <&kp>, <&kp>;
                 #binding-cells = <2>;
-                hold-trigger-key-positions = <KEYS_R THUMBS>;
+                hold-trigger-key-positions = <KEYS_L THUMBS>;
                 hold-trigger-on-release;             // delay positional check until key-release
             };
             hml: homerow_mods_left {
@@ -31,7 +31,7 @@
                 quick-tap-ms = <175>;                // repeat on tap-into-hold
                 bindings = <&kp>, <&kp>;
                 #binding-cells = <2>;
-                hold-trigger-key-positions = <KEYS_L THUMBS>;
+                hold-trigger-key-positions = <KEYS_R THUMBS>;
                 hold-trigger-on-release;             // delay positional check until key-release
             };
         };
