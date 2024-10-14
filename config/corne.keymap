@@ -15,6 +15,7 @@
 / {
         behaviors {
             hmr: homerow_mods_right {
+                compatible = "zmk,behavior-hold-tap";
                 flavor = "balanced";
                 tapping-term-ms = <280>;
                 quick-tap-ms = <175>;                // repeat on tap-into-hold
@@ -25,6 +26,7 @@
                 hold-trigger-on-release;             // delay positional check until key-release
             };
             hml: homerow_mods_left {
+                compatible = "zmk,behavior-hold-tap";
                 flavor = "balanced";
                 tapping-term-ms = <280>;
                 quick-tap-ms = <175>;                // repeat on tap-into-hold
